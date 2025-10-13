@@ -126,3 +126,8 @@
     
 })(jQuery);
 
+$(document).on('click', '.lightboxOverlay', function(e) {
+    if (e.target === this) {
+        $('.lb-close').trigger('click');
+    }
+});
