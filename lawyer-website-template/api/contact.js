@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     const resend = new Resend(process.env.RESEND_API_KEY || 're_BE815YUy_KADLhzTdRngBkJ7TR6971wYZ');
 
     await resend.emails.send({
-      from: 'onboarding@resend.dev', // remitente verificado en Resend
+      from: 'onboarding@resend.dev',
       to: ['franjimenezdiaz98@gmail.com'], // contacto@reformasmazur.com
       reply_to: email,
       subject: (subject && subject.trim()) ? subject : `Nuevo mensaje de ${name}`,

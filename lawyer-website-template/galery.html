@@ -1,455 +1,395 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!--
-Tinker Template
-http://www.templatemo.com/tm-506-tinker
--->
-        <title>Tinker CSS Template</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-        
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<html lang="es">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/hero-slider.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <link rel="stylesheet" href="css/lightbox.css">
+<head>
+    <meta charset="utf-8">
+    <title>Reformas Mazur</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="reformas, mazur, reformas mazur" name="keywords">
+    <meta content="Reformas Mazur - Expertos en reformas integrales" name="description">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+</head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <nav class="navbar navbar-inverse" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                   <!-- <h1 class="m-0 display-4 text-primary text-uppercase">Reformas Mazur</h1> -->
+                    <img src="img/logo.png" alt="Reformas Mazur Logo" style="max-height: 150px;">
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row bg-white border-bottom d-none d-lg-flex">
+                    <div class="col-lg-7 text-left">
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                            <i class="fa fa-envelope text-secondary mr-2"></i>
+                            <small>contacto@reformasmazur.com</small>
+                        </div>
+                       <!-- <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                            <i class="fa fa-phone-alt text-secondary mr-2"></i>
+                            <small>+34 606 587 418</small>
+                        </div>-->
+                    </div>
+                    <div class="col-lg-5 text-right">
+                        <div class="d-inline-flex align-items-center p-2">
+                            <a class="btn btn-sm btn-outline-secondary btn-sm-square mr-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-secondary btn-sm-square mr-2" href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-secondary btn-sm-square mr-2" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-secondary btn-sm-square mr-2" href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-secondary btn-sm-square mr-2" href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                       <!-- <h1 class="m-0 display-4 text-primary text-uppercase">Reformas Mazur</h1> -->
+                        <img src="img/logo.png" alt="Reformas Mazur Logo" style="max-height: 80px;">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="#" class="navbar-brand scroll-top"><em>T</em>inker</a>
-                </div>
-                <!--/.navbar-header-->
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#" class="scroll-top">Home</a></li>
-                        <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
-                        <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
-                        <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
-                        <li><a href="#" class="scroll-link" data-id="contact-us">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!--/.navbar-collapse-->
-            </nav>
-            <!--/.navbar-->
-        </div>
-        <!--/.container-->
-    </div>
-    <!--/.header-->
-
-
-    <div class="parallax-content baner-content" id="home">
-        <div class="container">
-            <div class="text-content">
-                <h2><em>TINKER</em> <span>HTML5</span> Template</h2>
-                <p>Tinker is free HTML CSS template from templatemo.com that can be used for any kind of website. Please tell your friends about us. Thank you.</p>
-                <div class="primary-white-button">
-                    <a href="#" class="scroll-link" data-id="about">Let's Start</a>
-                </div>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Inicio</a>
+                            <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                            <a href="service.html" class="nav-item nav-link">Práctica</a>
+                            <a href="galery.html" class="nav-item nav-link active">Galería</a>
+                            <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                            <!--<div class="nav-item dropdown">
+                               <a href="galery.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="#" class="dropdown-item">Proyectos</a>
+                                    <a href="galery.html" class="dropdown-item">Galería</a>>
+                                    <a href="#" class="dropdown-item">Menu Item 3</a>
+                                </div>
+                            </div>-->
+                            
+                        </div>
+                        <a href="" class="btn btn-dark mr-3 d-none d-lg-block">Solicitar Presupuesto</a>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
+    <!-- Header End -->
 
 
-    <section id="about" class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_01.png" alt="">
-                        </div>
-                        <h4>Smart Notifications</h4>
-                        <div class="line-dec"></div>
-                        <p>Curabitur non risus fringilla libero accumsan molestie et quis justo. Cras aliquam tempor sem, vestibulum facilisis dui. Mauris malesuada porta.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+    <!-- Page Header Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/servicios/cocinas/cocina11.webp" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Galería</h4>
+                            <h3 class="display-2 text-capitalize text-white mb-4">Tu hogar en buenas manos</h3>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_02.png" alt="">
-                        </div>
-                        <h4>Lovely Web Design</h4>
-                        <div class="line-dec"></div>
-                        <p>Suspendisse magna mauris, convallis vel finibus eget, lobortis dictum neque. Nam tincidunt metus nec eros dignissim consectetur. Duis mollis.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_03.png" alt="">
-                        </div>
-                        <h4>Quick Support</h4>
-                        <div class="line-dec"></div>
-                        <p>Etiam quis ullamcorper augue. Morbi leo libero, malesuada eget eleifend eu, interdum sed augue. Sed tempor mi quis rhoncus convallis.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_04.png" alt="">
-                        </div>
-                        <h4>One-Click Setup</h4>
-                        <div class="line-dec"></div>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent viverra, nunc et mollis fermentum.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/servicios/banos/bano4.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Galería</h4>
+                            <h3 class="display-2 text-capitalize text-white mb-4">Tu hogar en buenas manos</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <div class="content-wrapper">
-            <div class="inner-container container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <div class="section-heading">
-                            <h4>Our Gallery</h4>
-                            <div class="line-dec"></div>
-                            <p>In malesuada placerat ligula et bibendum. Aenean eget urna enim. Sed enim ante, bibendum nec dictum ac, gravida ac lectus.</p>
-                            <div class="filter-categories">
-                                <ul class="project-filter">
-                                    <li class="filter" data-filter="all"><span>Show All</span></li>
-                                    <li class="filter" data-filter="branding"><span>Branding</span></li>
-                                    <li class="filter" data-filter="graphic"><span>Graphic</span></li>
-                                    <li class="filter" data-filter="nature"><span>Nature</span></li>
-                                    <li class="filter" data-filter="animation"><span>Animation</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="projects-holder-3">
-                            <div class="projects-holder">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6 project-item mix nature">
-                                      <div class="thumb">
-                                            <div class="image">
-                                                <a href="img/portfolio_big_item_01.jpg" data-lightbox="image-1"><img src="img/portfolio_item_01.jpg"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix animation">
-                                      <div class="thumb">
-                                        <div class="image">
-                                                <a href="img/portfolio_big_item_02.jpg" data-lightbox="image-1"><img src="img/portfolio_item_02.jpg"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix branding">
-                                      <div class="thumb">
-                                            <div class="image">
-                                                <a href="img/portfolio_big_item_03.jpg" data-lightbox="image-1"><img src="img/portfolio_item_03.jpg"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix graphic nature">
-                                        <div class="thumb">
-                                            <div class="image">
-                                                <a href="img/portfolio_big_item_04.jpg" data-lightbox="image-1"><img src="img/portfolio_item_04.jpg"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix branding">
-                                      <div class="thumb">
-                                            <div class="image">
-                                                <a href="img/portfolio_big_item_05.jpg" data-lightbox="image-1"><img src="img/portfolio_item_05.jpg"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix graphic animation">
-                                        <div class="thumb">
-                                            <div class="image">
-                                                <a href="img/portfolio_big_item_06.jpg" data-lightbox="image-1"><img src="img/portfolio_item_06.jpg"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-prev-icon"></span>
                 </div>
-            </div>
-        </div> 
-    </section>
-
-
-    <section id="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div id="owl-testimonials" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="testimonials-item">
-                                <p>“ Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo. ”</p>
-                                <h4>George Rich</h4>
-                                <span>Web Designer</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonials-item">
-                                <p>“ Suspendisse magna mauris, convallis vel finibus eget, lobortis dictum neque. Nam tincidunt metus nec eros dignissim consectetur. ”</p>
-                                <h4>John Henry</h4>
-                                <span>New Manager</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonials-item">
-                                <p>“ Aenean semper aliquam est ut maximus. Fusce id diam eget orci lobortis ultricies at ac velit. Curabitur laoreet massa et fringilla sagittis. ”</p>
-                                <h4>Danny Cute</h4>
-                                <span>CEO Founder</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonials-item">
-                                <p>“ Maecenas eu odio pharetra, elementum lorem eget, efficitur erat. Duis eget justo non nisi iaculis vestibulum. Aliquam erat volutpat. ”</p>
-                                <h4>Richard Beal</h4>
-                                <span>CSS Developer</span>
-                            </div>
-                        </div>
-                    </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-next-icon"></span>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="tabs-content" id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="wrapper">
-                    <div class="col-md-4">
-                        <div class="section-heading">
-                            <h4>Our Blog Posts</h4>
-                            <div class="line-dec"></div>
-                            <p>Nam vulputate elementum nulla, sit amet congue ipsum malesuada pretium. Vivamus vel gravida quam.</p>
-                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                                <li><a href="#tab1" class="active">Nulla eget convallis augue</a></li>
-                                <li><a href="#tab2">Quisque ultricies maximus</a></li>
-                                <li><a href="#tab3">Sed vel elit et lorem</a></li>
-                                <li><a href="#tab4">Vivamus purus neque</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <section id="first-tab-group" class="tabgroup">
-                            <div id="tab1">
-                                <img src="img/blog_item_01.jpg" alt="">
-                                <div class="text-content">
-                                    <h4>Nulla eget convallis augue</h4>
-                                    <span><a href="#">Digital Marketing</a> / <a href="#">Honey</a> / <a href="#">26 September 2017</a></span>
-                                    <p>Donec interdum scelerisque auctor. Nulla id lorem auctor, bibendum lectus elementum, porta felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                </div>
-                            </div>
-                            <div id="tab2">
-                                <img src="img/blog_item_02.jpg" alt="">
-                                <div class="text-content">
-                                    <h4>Quisque ultricies maximus</h4>
-                                    <span><a href="#">Branding</a> / <a href="#">David</a> / <a href="#">14 September 2017</a></span>
-                                    <p>Etiam fringilla posuere pretium. Maecenas tempor pellentesque elit in dapibus. Curabitur viverra urna sem, ut sollicitudin sem congue vel. Donec fringilla augue in justo molestie fermentum quis ac mi.</p>
-                                </div>
-                            </div>
-                            <div id="tab3">
-                                <img src="img/blog_item_03.jpg" alt="">
-                                <div class="text-content">
-                                    <h4>Sed vel elit et lorem</h4>
-                                    <span><a href="#">Web Design</a> / <a href="#">William</a> / <a href="#">20 August 2017</a></span>
-                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id ipsum porta, dictum sem sed, bibendum quam. Maecenas mattis risus eget orci rhoncus.</p>
-                                </div>
-                            </div>
-                            <div id="tab4">
-                                <img src="img/blog_item_04.jpg" alt="">
-                                <div class="text-content">
-                                    <h4>Vivamus purus neque</h4>
-                                    <span><a href="#">E-Commerce</a> / <a href="#">George</a> / <a href="#">14 August 2017</a></span>
-                                    <p>Aliquam erat volutpat. Nulla at nunc nec ante rutrum congue id in diam. Nulla at lectus non turpis placerat volutpat lacinia ut mi. Quisque ultricies maximus justo a blandit. Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
+    <!-- Page Header End -->
 
-    <div id="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h4>Contact Us</h4>
-                        <div class="line-dec"></div>
-                        <p>Nunc posuere non quam at pharetra. Mauris tincidunt purus vel ultrices malesuada. Integer euismod erat ut nulla ultrices, ut auctor eros feugiat.</p>
-                        <div class="pop-button">
-                            <h4>Send us a message</h4>
-                        </div>
-                    </div>
-                </div>
+    <!-- Galería Start 1 -->
+    <div class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Galería de Proyectos</h2>
+    <p class="text-center text-muted mb-5">Algunos de nuestros trabajos recientes en distintas áreas</p>
+    
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <img src="https://picsum.photos/600/400?random=1" class="card-img-top" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Reforma Integral de Vivienda</h5>
+            <p class="card-text text-muted">
+              Proyecto completo de remodelación en el centro de Madrid, combinando estilo moderno y funcionalidad.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+           <a href="https://picsum.photos/1200/800?random=1" 
+                data-lightbox="galeria" 
+                data-title="Reforma Integral de Vivienda — Proyecto completo..."
+                class="btn btn-primary btn-sm">
+                Ver
+                </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <img src="https://picsum.photos/600/400?random=2" class="card-img-top" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Instalación de Tarima Flotante</h5>
+            <p class="card-text text-muted">
+              Colocación de tarima flotante en vivienda particular con materiales ecológicos y resistentes a la humedad.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+           <a href="https://picsum.photos/1200/800?random=1" 
+                data-lightbox="galeria" 
+                data-title="Reforma Integral de Vivienda — Proyecto completo..."
+                class="btn btn-primary btn-sm">
+                Ver
+                </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <img src="https://picsum.photos/600/400?random=3" class="card-img-top" alt="Proyecto 3">
+          <div class="card-body">
+            <h5 class="card-title">Rehabilitación de Fachada</h5>
+            <p class="card-text text-muted">
+              Mantenimiento y rehabilitación estética y estructural de fachada con materiales duraderos y seguros.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <a href="https://picsum.photos/1200/800?random=1" 
+                data-lightbox="galeria" 
+                data-title="Reforma Integral de Vivienda — Proyecto completo..."
+                class="btn btn-primary btn-sm">
+                Ver
+                </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Galería End 1-->
+     
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center pb-2">
+                <h6 class="text-uppercase">Contacto</h6>
+                <h1 class="mb-4">Contáctanos para cualquier consulta</h1>
             </div>
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="pop">
-                        <span>✖</span>
-                        <form id="contact" action="#" method="post">
-                            <div class="row">
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required>
-                                  </fieldset>
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Tu Nombre" required="required" data-validation-required-message="Por favor ingresa tu nombre" />
+                                    <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required>
-                                  </fieldset>
+                                <div class="col-sm-6 control-group">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Tu Correo Electrónico" required="required" data-validation-required-message="Por favor ingresa tu correo electrónico" />
+                                    <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required></textarea>
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                  </fieldset>
-                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Asunto" required="required" data-validation-required-message="Por favor ingresa un asunto" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingresa un mensaje"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary btn-block" type="submit" id="sendMessageButton">Enviar Mensaje</button>
                             </div>
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="map">
-    	<!-- How to change your own map point
-            1. Go to Google Maps
-            2. Click on your location point
-            3. Click "Share" and choose "Embed map" tab
-            4. Copy only URL and paste it within the src="" field below
-        -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7895.485196115994!2d103.85995441789784!3d1.2880401763270322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fb4e58ad9cd826e!2sSingapore+Flyer!5e0!3m2!1sen!2sth!4v1505825620371" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="logo">
-                        <a class="logo-ft scroll-top" href="#"><em>T</em>inker</a>
-                        <p>Copyright &copy; 2017 Your Company 
-                       <br>Design: templatemo</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="location">
-                        <h4>Location</h4>
-                        <ul>
-                            <li>30 Raffles Ave, <br>Singapore 039803</li>
-                            <li>1 Republic Blvd, <br>Singapore 038975</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <div class="contact-info">
-                        <h4>More Info</h4>
-                        <ul>
-                            <li><em>Phone</em>: 090-090-0320</li>
-                            <li><em>Email</em>: tk@company.co</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <div class="connect-us">
-                        <h4>Get Social with us</h4>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
+                <div class="col-lg-6" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <iframe style="width: 100%; height: 100%; object-fit: cover;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6083.420205404166!2d-3.8574875236012076!3d40.326590961119976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418e9d5650abb1%3A0xb3248dbe34b13e1a!2sC.%20Berardo%20Martin%2C%203%2C%2028937%20M%C3%B3stoles%2C%20Madrid!5e0!3m2!1ses!2ses!4v1760380859996!5m2!1ses!2ses"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+    <!-- Contact End -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-tertiary text-white pt-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Dirección</h5>
+                        <p class="m-0">C/ Berardo Martín, 3 (Móstoles)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Email</h5>
+                        <p class="m-0">contacto@reformasmazur.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Llámanos</h5>
+                        <p class="m-0">+34 606 587 418</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 mt-n2 display-4 text-primary text-uppercase">Reformas Mazur</h1>
+                </a>
+                <p>Calidad, compromiso y confianza en cada reforma.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Acerca de</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Servicios</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Portfolio</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>FAQs</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Site Map</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Revista</h4>
+                <p>¡Suscríbete a nuestra revista!</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-0" style="padding: 25px;" placeholder="Tu Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4">Suscribirse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-4 mt-5 mx-0" style="background: rgba(256, 256, 256, .05);">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">&copy; <a class="font-weight-bold" href="#">Reformas Mazur</a>. Todos los derechos reservados.</p>
+            </div>
+           <!-- <div class="col-md-6 text-center text-md-right">
+                <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            </div> -->
+        </div>
+    </div>
+    <!-- Footer End -->
+<!-- Modal Start -->
+        <div class="modal fade" id="galeriaModal" tabindex="-1" role="dialog" aria-labelledby="galeriaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-body p-0">
+                <img id="galeriaModalImg" src="" class="img-fluid w-100" alt="">
+            </div>
+            <div class="modal-footer d-block text-left">
+                <h5 id="galeriaModalTitle" class="mb-1"></h5>
+                <p id="galeriaModalText" class="mb-0 text-muted"></p>
+            </div>
+            </div>
+        </div>
+        </div>
+<!-- Modal End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <script src="js/plugins.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        // navigation click actions 
-        $('.scroll-link').on('click', function(event){
-            event.preventDefault();
-            var sectionID = $(this).attr("data-id");
-            scrollToID('#' + sectionID, 750);
-        });
-        // scroll to top action
-        $('.scroll-top').on('click', function(event) {
-            event.preventDefault();
-            $('html, body').animate({scrollTop:0}, 'slow');         
-        });
-        // mobile nav toggle
-        $('#nav-toggle').on('click', function (event) {
-            event.preventDefault();
-            $('#main-nav').toggleClass("open");
-        });
-    });
-    // scroll function
-    function scrollToID(id, speed){
-        var offSet = 50;
-        var targetOffset = $(id).offset().top - offSet;
-        var mainNav = $('#main-nav');
-        $('html,body').animate({scrollTop:targetOffset}, speed);
-        if (mainNav.hasClass("open")) {
-            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-            mainNav.removeClass("open");
-        }
-    }
-    if (typeof console === "undefined") {
-        console = {
-            log: function() { }
-        };
-    }
-    </script>
+    
 </body>
+
 </html>
