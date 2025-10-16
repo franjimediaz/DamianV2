@@ -226,57 +226,80 @@
 
 
     <!-- Appointment Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="bg-appointment rounded">
-                <div class="row h-100 align-items-center justify-content-center">
-                    <div class="col-lg-6 py-5">
-                        <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
-                            <h1 class="text-center text-white mb-4">¡Obten tu cita!</h1>
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="Tu Nombre" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="Tu Correo Electrónico" required="required" />
-                                </div>
-                                <div class="form-row">
-                                    <div class="col-6">
-                                        <div class="form-group">
-                                            <div class="date" id="date" data-target-input="nearest">
-                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Seleccionar Fecha" data-target="#date" data-toggle="datetimepicker"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="form-group">
-                                            <div class="time" id="time" data-target-input="nearest">
-                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Seleccionar Hora" data-target="#time" data-toggle="datetimepicker"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select border-0 px-4" style="height: 47px;">
-                                        <option selected>Seleccionar un servicio</option>
-                                        <option value="1">General</option>
-                                        <option value="2">Electricidad</option>
-                                        <option value="3">Fontanería</option>
-                                        <option value="4">Suelos</option>
-                                        <option value="5">Cocinas</option>
-                                        <option value="5">Baños</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary btn-block border-0 py-3" type="submit">Solicitar Cita</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+<div class="container-fluid py-5">
+  <div class="container py-5">
+    <div class="bg-appointment rounded">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-lg-6 py-5">
+          <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
+            <h1 class="text-center text-white mb-4">¡Obtén tu cita!</h1>
+
+            <!-- FORMULARIO FUNCIONAL -->
+            <form id="contactForm">
+              
+              <!-- Nombre -->
+              <div class="form-group mb-3">
+                <input type="text" class="form-control border-0 p-4" name="name" id="name"
+                  placeholder="Tu Nombre" required />
+              </div>
+
+              <!-- Correo -->
+              <div class="form-group mb-3">
+                <input type="email" class="form-control border-0 p-4" name="email" id="email"
+                  placeholder="Tu Correo Electrónico" required />
+              </div>
+
+              <!-- Asunto oculto -->
+              <input type="hidden" name="subject" id="subject" value="Solicitud de cita desde la web" />
+
+              <!-- Fecha y hora -->
+              <div class="row">
+                <div class="col-6 mb-3">
+                  <input type="date" class="form-control border-0 p-4" name="date" id="date"
+                    required />
                 </div>
-            </div>
+                <div class="col-6 mb-3">
+                  <input type="time" class="form-control border-0 p-4" name="time" id="time"
+                    required />
+                </div>
+              </div>
+
+              <!-- Servicio -->
+              <div class="form-group mb-3">
+                <select class="form-select border-0 px-4" name="service" id="service"
+                  style="height: 47px;" required>
+                  <option value="" selected disabled>Seleccionar un servicio</option>
+                  <option value="General">General</option>
+                  <option value="Electricidad">Electricidad</option>
+                  <option value="Fontanería">Fontanería</option>
+                  <option value="Suelos">Suelos</option>
+                  <option value="Cocinas">Cocinas</option>
+                  <option value="Baños">Baños</option>
+                </select>
+              </div>
+
+              <!-- Mensaje (opcional) -->
+              <div class="form-group mb-4">
+                <textarea class="form-control border-0 p-4" name="message" id="message"
+                  rows="3" placeholder="Detalles adicionales (opcional)"></textarea>
+              </div>
+
+              <!-- Botón -->
+              <div>
+                <button id="sendMessageButton" class="btn btn-primary btn-block border-0 py-3" type="submit">
+                  Solicitar Cita
+                </button>
+              </div>
+
+            </form>
+            <!-- FIN FORMULARIO -->
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
     <!-- Appointment End -->
 
 
@@ -632,7 +655,7 @@
                     <a class="text-white mb-2" href="terms.html"><i class="fa fa-angle-right mr-2"></i>Terms</a>
                     <a class="text-white mb-2" href="privacy.html"><i class="fa fa-angle-right mr-2"></i>Privacy</a>
                     <a class="text-white mb-2" href="cookies.html"><i class="fa fa-angle-right mr-2"></i>Cookies</a>
-                    <a class="text-white" href="contacto.html"><i class="fa fa-angle-right mr-2"></i>Site Map</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Site Map</a>
                 </div>
             </div>
            <!-- <div class="col-lg-3 col-md-6 mb-5">
